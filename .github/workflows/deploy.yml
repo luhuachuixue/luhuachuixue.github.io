@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [ blog-src ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Publish Site
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.GH_TOKEN }}
+          repo: luhuachuixue/luhuachuixue.github.io
+          branch: main
+          cname: luhuachuixue.cf
+          args: --gc --minify --cleanDestinationDir

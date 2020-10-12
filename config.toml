@@ -1,0 +1,129 @@
+baseURL = "https://luhuachuixue.cf"
+title = "偏隅"
+theme = "maupassant"
+
+hasCJKLanguage = true
+languageCode = "zh-CN"
+defaultContentLanguage = "zh"
+
+enableGitInfo = false
+enableEmoji = true
+enableRobotsTXT = true
+enableInlineShortcodes = true
+disablePathToLower = false
+preserveTaxonomyNames = false
+summaryLength = 140
+
+# googleAnalytics = ""  # UA-XXXXXXXX-X
+# disqusShortname = ""  # disqus评论，不要和utteranc同时开启
+
+[author]
+  name = "luhuachuixue"
+
+[sitemap]
+  fileName = "sitemap.xml"
+  changeFreq = "weekly"
+  priority = 0.5
+
+[permalinks]
+  post = "/post/:slug"
+  posts = "/posts/:slug"
+  # post = "/:year/:month/:title"
+  # posts = "/:year/:month/:title"
+
+## 代码高亮
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    noClasses = true
+    codeFences = true
+    guessSyntax = true
+    anchorLineNos = true
+    lineNumbersInTable = true
+    lineNos = true
+    lineNoStart = 1
+    tabWidth = 4
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.goldMark.renderer]
+    unsafe = true
+
+## 网站菜单
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 3
+
+[params]
+  author = "luhuachuixue"
+  subTitle = "八目七证，知行合一"
+  keywords = "luhuachuixue,博客,代码"
+  description = "luhuachuixue | 博客 | 开发"
+  localSearch = true # 本地搜索
+  fancyBox = true    # 图片点击放大
+  toc = true         # 全局开关，也可在每篇文章的front matter中单独关闭/开启
+  busuanzi = true    # 不蒜子网页统计
+  googleAd = ""      # ca-pub-xxxxxxxxxxxxxx
+  ## 自定义css、js，存放在主题的static目录或者Hugo站点的static目录下
+  ## if ['custom.css'], load '/static/css/custom.css' file
+  customCSS = []
+  ## if ['custom.js'], load '/static/js/custom.js' file
+  customJS = []
+  # beian = "粤ICP备XXXXXXXX号-1"
+
+## 版权声明，协议名字和链接都可以换
+[params.cc]
+  name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
+  link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+## 图片CDN
+[params.image_cdn]
+  enable = true
+  host = "https://cdn.jsdelivr.net/gh/luhuachuixue/luhuachuixue.github.io@main"
+
+## 画图
+# [params.sequenceDiagrams]
+#   enable = true
+#   options = ""            # default: "{theme: 'simple'}"
+# [params.flowchartDiagrams]
+#   enable = true
+#   options = ""
+# [params.graphviz]
+#   enable = true
+#   options = ""
+
+## utteranc评论，教程参考https://utteranc.es/
+[params.utteranc]
+  enable = false
+  repo = "your github repo"
+  issueTerm = "pathname"
+  theme = "github-light"
+
+## 友情链接，可以多个
+[[params.links]]
+  title = "同站导航1"
+  name = "同站导航1"
+  url = "https://luhuachuixue.tk"
+[[params.links]]
+  title = "同站导航2"
+  name = "同站导航2"
+  url = "https://luhuachuixue.ml"
+
+## 侧边栏广告位
+# [[params.ads]]
+#   title = "【2019双12】ALL IN CLoud 低至1折"
+#   url = "https://www.aliyun.com/minisite/goods?userCode=jdg9oj97&share_source=copy_link"
+#   img = "https://img.alicdn.com/tfs/TB1_rYHo7P2gK0jSZPxXXacQpXa-690-388.jpg"
+# [[params.ads]]
+#   title = "助力产业智慧升级，云服务器首年88元起，更有千元代金券礼包免费领！"
+#   url = "https://cloud.tencent.com/act/cps/redirect?redirect=1048&cps_key=14ff722692ac784fa8c3301c8c28d924&from=console"
+#   img = "https://upload-dianshi-1255598498.file.myqcloud.com/345-7c71532bd4935fbdd9a67c1a71e577b1767b805c.200%E7%89%88%E6%9C%ACB.jpg"

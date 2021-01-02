@@ -34,7 +34,7 @@ summaryLength = 140
 ## 代码高亮
 [markup]
   [markup.highlight]
-    style = "monokai"
+    style = "dracula"
     noClasses = true
     codeFences = true
     guessSyntax = true

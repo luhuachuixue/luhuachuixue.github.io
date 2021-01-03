@@ -361,30 +361,32 @@ go env
 
 ### 4.1 Lua
 
+[编译脚本下载地址](https://github.com/luhuachuixue/build-script)
+
 #### 4.1.1 MSVC(5秒)
 
 - 修改脚本build.cmd，放在源码压缩包同级目录
 
-- 双击脚本build.cmd
-
 | 变量 | 说明 |
 | ---- | ---- |
-| lua_ver_major	 |  对应lua主版本号 |
-| lua_ver_minor  | 	对应lua次版本号 |
-| lua_ver_patch	 |  对应lua补丁版本号 |
-| lua_install_dir  |  对应lua二进制存放目录 |
+| lua_ver_major	 |  对应Lua主版本号 |
+| lua_ver_minor  | 	对应Lua次版本号 |
+| lua_ver_patch	 |  对应Lua补丁版本号 |
+| lua_install_dir  |  对应Lua二进制存放目录 |
 | msvc_env  |  对应MSVC环境配置BAT脚本路径 |
+
+- 双击脚本build.cmd
 
 #### 4.1.2 MinGW(5秒)
 
 - 修改脚本build.cmd，放在源码压缩包同级目录
 
-- 双击脚本build.cmd
-
 | 变量 | 说明 |
 | ---- | ---- |
-| lua_version  |  对应lua版本 |
-| lua_install_dir  |  对应lua二进制存放目录 |
+| lua_version  |  对应Lua版本 |
+| lua_install_dir  |  对应Lua二进制存放目录 |
+
+- 双击脚本build.cmd
 
 ### 4.2 Perl
 

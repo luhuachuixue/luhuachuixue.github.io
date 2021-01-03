@@ -165,7 +165,7 @@ Boost使用一种所谓用户配置的方式，头文件中使用宏来决定使
 
 ### 4.2 动态库
 
-定义`BOOST_ALL_DYN_LINK`、`BOOST_XXX_DYN_LINK`，用来生成__declspec(dllimport)
+定义`BOOST_ALL_DYN_LINK`、`BOOST_XXX_DYN_LINK`，用来生成`__declspec(dllimport)`
 
 #### 4.2.1 方式一、编译器带参数宏
 

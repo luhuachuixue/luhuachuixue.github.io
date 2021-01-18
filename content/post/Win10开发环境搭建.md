@@ -608,7 +608,7 @@ pip install -U xxx
 
 #### 8.1.1 全局配置文件
 
-参考D:/Software/Editor/VS Code/Config/Config-Win.txt
+参考D:/Software/Editor/VSCode/Config/Config-Win.txt
 
 `Ctrl+,` 打开设置
 
@@ -657,15 +657,15 @@ pip install -U xxx
 
 | 文件 | 说明 |
 | ---- | ---- |
-| c_cpp_properties.json  |  指定编译器路径 <br> 参考D:/Software/Editor/VS Code/C-C++/c_cpp_properties.json |
-| tasks.json  |  指定如何构建可执行文件 <br> 参考D:/Software/Editor/VS Code/C-C++/tasks.json |
-| launch.json  |  指定调试器设置 <br> 参考D:/Software/Editor/VS Code/C-C++/launch.json |
+| c_cpp_properties.json  |  指定编译器路径 <br> 参考D:/Software/Editor/VSCode/C-C++/c_cpp_properties.json |
+| tasks.json  |  指定如何构建可执行文件 <br> 参考D:/Software/Editor/VSCode/C-C++/tasks.json |
+| launch.json  |  指定调试器设置 <br> 参考D:/Software/Editor/VSCode/C-C++/launch.json |
 
 ### 8.4 自定义代码模板
 
 #### 8.4.1 自定义C模板
 
-参考D:/Software/Editor/VS Code/Config/snippet/c.json
+参考D:/Software/Editor/VSCode/Config/snippet/c.json
 
 `Ctrl + Shift + P` --> `Configure User Snippet` --> `c.json`
 
@@ -673,7 +673,7 @@ pip install -U xxx
 
 #### 8.4.2 自定义C++模板
 
-参考D:/Software/Editor/VS Code/Config/snippet/cpp.json
+参考D:/Software/Editor/VSCode/Config/snippet/cpp.json
 
 `Ctrl + Shift + P` --> `Configure User Snippet` --> `cpp.json`
 
@@ -681,7 +681,7 @@ pip install -U xxx
 
 #### 8.4.3 自定义Java模板
 
-参考D:/Software/Editor/VS Code/Config/snippet/java.json
+参考D:/Software/Editor/VSCode/Config/snippet/java.json
 
 `Ctrl + Shift + P` --> `Configure User Snippet` --> `java.json`
 
@@ -689,7 +689,7 @@ pip install -U xxx
 
 #### 8.4.4 自定义CMake模板
 
-参考D:/Software/Editor/VS Code/Config/snippet/cmake.json
+参考D:/Software/Editor/VSCode/Config/snippet/cmake.json
 
 `Ctrl + Shift + P` --> `Configure User Snippet` --> `cmake.json`
 
